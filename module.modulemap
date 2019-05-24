@@ -1,0 +1,6 @@
+module Pango [system] {
+  header "shim.h"
+  link "pango-1.0"  
+  link "pangocairo-1.0"
+  export *
+}
